@@ -43,7 +43,7 @@ The steps of building the game from this GitHub repository
 
 ### Steps to Build:
 
-- Clone this repository using the ```git clone``` command or paste the following commands in the terminal and press ```Enter``` \
+- Clone this repository using the ```git clone``` command or run the following commands in the terminal \
 ```git clone https://github.com/AadiGodzilla/Snake-Game-Python``` \
 ```cd Snake-Game-Python```
 - Run the following command to install the required packages in the ```requirements.txt``` file: \
