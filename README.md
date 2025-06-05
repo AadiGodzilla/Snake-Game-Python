@@ -2,7 +2,7 @@
 
 ---
 
-![alt text](https://github.com/AadiGodzilla/Snake-Game-Python/tree/main/assets/screenshot.png "Screenshot")
+![screenshot](https://github.com/AadiGodzilla/Snake-Game-Python/tree/main/assets/screenshot.png)
 
 ## Introduction
 
