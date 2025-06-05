@@ -19,11 +19,9 @@ class GameScene(Scene):
         self.__snake.update()
 
         if self.__snake.snake_body_collision() or self.__snake.head_boundary_collision():
-            self.window.game_over = True
-
-        if self.window.game_over:
             self.__snake.reset()
             self.__score.reset()
+            self.window.game_over = True
 
         if collision(self.__snake.head.rect, self.__apple.rect):
             self.__apple.randomize_position()
