@@ -23,10 +23,11 @@ class Window:
 
             if self.pause:
                 self.__sceneManager.change(SceneID.PAUSE)
-            elif self.game_over:
-                self.__sceneManager.change(SceneID.GAME_OVER)
             else:
                 self.__sceneManager.change(SceneID.GAME)
+
+            if self.game_over:
+                self.__sceneManager.change(SceneID.GAME_OVER)
 
             self.__sceneManager.run()
 

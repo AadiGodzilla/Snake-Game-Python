@@ -92,6 +92,7 @@ class Snake:
         if (self.head.rect.x >= Settings.SCREEN_WIDTH or 
         self.head.rect.y >= Settings.SCREEN_HEIGHT or 
         self.head.rect.x < 0 or self.head.rect.y < 0):
+            self.reset()
             return True
         else:
             return False
@@ -103,6 +104,7 @@ class Snake:
                 continue
 
             if collision(Rect(seg.rect), Rect(self.head.rect)):
+                self.reset()
                 return True
             
         return False
