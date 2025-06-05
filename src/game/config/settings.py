@@ -4,4 +4,4 @@ class Settings:
     TILE_ROWS = 30
     SCREEN_WIDTH = TILE_COLS * TILE_SIZE 
     SCREEN_HEIGHT = TILE_ROWS * TILE_SIZE
-    TITLE = "Hello World!!"
+    TITLE = "Snake Game in Python"
