@@ -12,7 +12,7 @@ written in python with the support of the [pygame](https://www.pygame.org/news) 
 ## Gameplay
 
 - In this game, we control a hungry snake which eats apples.
-- These apples appear in a reappear on a random position on the screen once the snake has eaten the apple.
+- These apples reappear on a random position on the screen once the snake has eaten the apple.
 - Each time the snake eats the apple, it contributes to the score and the length of the snake to be incremented.
 
 ## Controls
