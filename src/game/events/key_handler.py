@@ -14,9 +14,10 @@ def poll_events(window: 'Window'):
             window.running = False
         elif event.type == pygame.KEYDOWN:
             if event.key == pygame.K_ESCAPE:
-                window.pause = not window.pause
-            if window.game_over:
-                window.game_over = False
+                if window.game_over:
+                    window.game_over = False
+                else:
+                    window.pause = not window.pause
 
         __keyboard = pygame.key.get_pressed()
 
