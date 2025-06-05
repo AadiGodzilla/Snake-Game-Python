@@ -48,5 +48,5 @@ The game will come to an end when either of the following conditions is met:
 - When the head of the snake collides to a segment of its body
 - When the head of the snake goes out of bounds of the window
 
-Once the game is over, The player can ```press any key``` to resume the game which will reset the size and position of the snake to that at the beginning of the game
+Once the game is over, The player can press ```ESCAPE``` to resume the game which will reset the size and position of the snake to that at the beginning of the game
 aswell as set the score to zero 
