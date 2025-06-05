@@ -2,7 +2,7 @@
 
 ---
 
-![screenshot](https://github.com/AadiGodzilla/Snake-Game-Python/tree/main/assets/screenshot.png)
+![screenshot](https://github.com/AadiGodzilla/Snake-Game-Python/blob/main/assets/screenshot.png?raw=true)
 
 ## Introduction
 
